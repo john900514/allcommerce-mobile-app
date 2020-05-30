@@ -29,6 +29,10 @@
     },
     "android": {
       "package": "com.capeandbay.allcommerce"
+    },
+    "packagerOpts": {
+      "sourceExts": ["js", "json", "ts", "tsx", "vue"],
+      "config": "metro.config.js"
     }
   }
 }

@@ -8,9 +8,9 @@ import { Platform } from "react-native";
 
 export default function getENVFunctions(env = Constants.manifest.releaseChannel) {
     const localhost = 'https://gorgeous-kyiv-kpz7uyk4xkhf.vapor-farm-b1.com/api';
-    const buildNo = '11921';
+    const buildNo = '42620';
     const ENV = {
-        version: "0.0.1",
+        version: "0.0.2",
         local: {
             apiUrl: localhost,
             build: buildNo+'-dev-source'
